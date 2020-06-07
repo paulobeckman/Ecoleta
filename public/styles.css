@@ -18,7 +18,6 @@ body{
 }
 
 header{
-    width: 100%;
     padding: 30px 0;
     box-sizing: border-box;
     align-items: center;
@@ -30,44 +29,61 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #page-home{
-    height: 100vh;
+    height: 110vh;
     background: url('./pictures/home-background.svg') no-repeat;
    
     background-position: 35vw bottom;
 }
 
-#page-home .container{
-    width: 90%;
+.container{
     max-width: 1100px;
-    height: 100%;
 
     margin: 0 auto;
 
     display: flex;
     flex-direction: column;
-    
 }
 
-#page-home .container .links{
+.container .links{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#page-home .container .links .log-in{
+.container .links span{
     display: flex;
     align-items: center;
+    position: relative;
 }
 
-#page-home .container .links .log-in a{
+.container .links span a{
     text-decoration: none;
     margin-left: 16px;
     color: var (var(--primary-color));
 
-    font-weight: 700;  
+    font-weight: 700; 
 }
 
+.container .links span::after{
+    content: "";
+    width: 4px;
+    height: 0;
+    background-color: var(--secundary--color);
+    position: absolute;
+    right: -8px;
+    bottom: 0;
+}
+
+.container .links span:hover::after{
+    height: 100%;
+    transition: height 200ms ease-in-out;
+}
+
+
+
+ /* === HOME === */
 #page-home .container .wrapper{
+    margin-top: 100px;
     max-width: 560px;
 
     flex: 1;
@@ -88,7 +104,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #page-home .container .wrapper a{
-    width: 100%;
     max-width: 360px;
     height: 72px;
 
@@ -104,6 +119,8 @@ h1, h2, h3, h4, h5, h6 {
     transition: 400ms;
 
     text-decoration: none;
+
+    cursor: pointer;
 }
 
 #page-home .container .wrapper a:hover{
@@ -140,7 +157,6 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-
 /* Deixando a pagina com reponsividade */
 @media (max-width: 900px){
     #page-home{
@@ -152,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
         text-align: center;
     }
 
-    #page-home .container .links .log-in {
+    #page-home .container .links span{
         position: absolute;
         bottom: 48px;
         height: -100vh;
@@ -164,4 +180,250 @@ h1, h2, h3, h4, h5, h6 {
     #page-home .wrapper {
         align-items: center;
     }
+
+}
+
+@media (min-width: 1700px){
+    #page-home{
+        background-position: 40vw;
+    }
+}
+
+@media (max-height: 760px){
+    #page-home{
+        background-position-y: 200px;
+    }
+}
+
+
+/* === REGISTER === */
+
+.card_register{
+    position: absolute;
+    background: #FFFFFF;
+    max-width: 736px;
+    height: 1269px;
+    margin: 46px 14%;
+    border-radius: 8px;
+}
+
+.card_register h1{
+    width: 269px;
+    height: 82px;
+    margin: 64px;
+
+    font-size: 36px;
+    line-height: 41px;
+}
+
+.card_register h2{
+    font-size: 24px;
+    line-height: 28px;
+    margin: 10px 64px;
+    margin-bottom: 43px;
+}
+
+.card_register .all_items{
+    margin: 0 64px;    
+}
+
+input,
+select{
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+
+.all_items .item input,
+.all_items .item select{
+    background: #F0F0F5;
+    width: 608px;
+    height: 56px;
+
+    border-radius: 8px;
+}
+
+.all_items .grup-address {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.all_items .grup-uf_city {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.all_items .grup-address input[name="address"]{
+    width: 416px;
+}
+
+.all_items .grup-address input[name="number"]{
+   width: 168px;
+}
+
+
+.all_items .grup-uf_city select{
+    width: 292px;
+}
+
+.all_items .item div:nth-child(1){
+    color: #6C6C80;
+    width: 115px;
+    height: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+
+
+/* cars itens de coleta */
+
+.all_items_block h3{
+    font-size: 24px;
+    line-height: 28px;
+    margin: 64px;
+    margin-top: 64px;
+    margin-bottom: 40px;
+}
+
+.all_items_block p{
+    position: absolute;
+    right: 0;
+    margin-right: 64px;
+    top: 635px;
+    
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6C6C80;
+    
+}
+
+.card_register .cards_items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:16px;
+
+    margin: 0 64px;
+}
+
+.cards_items .card{
+    background:  #E1FAEC;
+    width: 190px;
+    height: 180px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cards_items .card img{
+    margin: 0 64px;
+    margin-top: 32px;
+}
+
+.cards_items .card div{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--primary-color);
+
+    margin-top: 34px;
+}
+
+.card_register button{
+    background: var(--secundary--color);
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 18px 30px;
+    margin-top: 70px;
+    margin-left: 390px;
+
+    cursor: pointer;
+
+}
+
+.card.active{
+    background: linear-gradient(0deg, #E1FAEC 0%, #FFFFFF 100%);
+    border: 2px solid #34CB79;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.card img,
+.card div{
+    pointer-events: none;
+}
+
+.modal-overlay{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    background:  rgba(1, 0, 7, 0.9);
+    top:0;
+
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal-overlay.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal{
+    width: 420px;
+
+    margin: 190px auto;
+}
+
+.close-modal{
+    color: white;
+    cursor: pointer;
+    margin-left: 400px;
+}
+
+.modal h1 {
+    color: white;
+    text-align: center;
+    width: 420px;
+    margin-bottom: 40px;
+}
+
+.modal input,
+.modal button{
+    width: 420px;
+    height: 56px;
+    border-radius: 8px;
+    margin-top: 8px;
+
+}
+
+.modal button{
+    background: var(--secundary--color);
+    font-weight: bold;
+    font-size: 16px;
+    font-weight: 19px;
+    color: white;
+}
+
+/* === LIST === */
+.secundary_background{
+    position: fixed;
+    background: #FFFFFF;
+    top: 260px;
+    height: 370px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
 }

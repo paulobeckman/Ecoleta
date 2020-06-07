@@ -1,38 +1,60 @@
-<!DOCTYPE html>
+{% extends 'layout.njk' %}
 
-<html>
-    <head>
-        <title>Ecoleta</title>
-        <link rel="stylesheet" href="/styles.css">
-    </head>
+{% set bodyId = "page-home" %}
 
-    <body>
-        <div id="page-home">
+{% set closeIcons = "https://fonts.googleapis.com/icon?family=Material+Icons" %}
 
-            <div class="container">
+{% block content %}
 
-                <header>   
-                      <div class="links">
-                        <img src="./pictures/logo.svg" alt="oi">
-                        <div class="log-in">
-                            <img src="./pictures/log-in.svg" alt="">
-                            <a href="">Cadrastre um ponto de coleta</a>
-                        </div>
-                    </div>
-                </header>
+<div class="container">
 
-                <div class="wrapper">
-                    <h1>Seu marketplace de coleta de resíduos</h1>
-                    <p>Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.</p>
-                   
-                   
-                    <a href="#"><span></span><strong>Pesquisar Pontos de Coleta</strong></a>
-                </div>
+    <header>   
+            <div class="links">
+            <img src="./pictures/logo.svg" alt="logo ecoleta">
+            <span>
+                <img src="./pictures/log-in.svg" alt="">
+                <a href="/register"> Cadrastre um ponto de coleta</a>
+            </span>
+        </div>
+    </header>
 
-                
+    <div class="wrapper">
+        <h1>Seu marketplace de coleta de resíduos</h1>
+        <p>Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.</p>
+        
+        
+        <a><span></span><strong>Pesquisar Pontos de Coleta</strong></a>
+    </div>
 
-            </div> 
+</div>   
 
-        </div>      
-    </body>
-</html>
+<div class="modal-overlay">
+    <div class="modal">
+
+        <a class="close-modal">
+            <i class="material-icons">close</i>
+        </a>
+
+        <h1>Pontos de Coleta</h1>
+    
+        <form class="form-modal">
+            <input 
+                type="text"
+                name="city_search"
+                placeholder="Digite a Cidade"
+            >
+
+            <input 
+                type="text"
+                name="uf_search"
+                placeholder="Digite seu Estado"
+            >
+            <button type="submit">Buscar</button>    
+        </form>
+
+    </div>
+</div>
+
+    <script src="/home.js"></script>
+    
+{% endblock content %}
