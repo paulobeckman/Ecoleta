@@ -18,6 +18,36 @@
                     </span>
                 </div>
             </header>
+
+            {% if total>0 %}
+                <p><strong>{{total}} pontos</strong> encontrados</p>
+
+                <div class="cards-list">
+                    {% for place in places %}
+                    
+                        <div class="card-items">
+                            <img src="{{place.image}}" alt="{{place.name}}">
+                            <h1>{{place.name}}</h1>
+                            <h3>{{place.items}}</h3>
+                            <p> 
+                                {{place.city}}, {{place.state}}
+                                <br/>
+                                {{place.address}}
+                                <br/>
+                                {{place.address2}}
+                            </p>
+                        </div>
+
+                    {% endfor %}
+                </div>
+
+            {%else%}
+
+                <p><strong>Nenhum</strong> local encontrado</p>
+
+            {% endif %}
+
+            
         
         </div> 
     

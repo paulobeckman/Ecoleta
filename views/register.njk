@@ -15,7 +15,7 @@
             </div>
         </header>
 
-        <form class="page-register">
+        <form class="page-register" action="/savepoint" method="POST">
             <div class="card_register">
                 <h1>Cadastro ponto de coleta</h1>
 
@@ -29,6 +29,18 @@
                                 type="text"
                                 name="name"
                                 placeholder="Ex: Ricardo Marinho"
+                                required
+                            >
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div>Imagem</div>
+                        <div>
+                            <input  
+                                type="url"
+                                name="image"
+                                placeholder="Ex: http://"
                                 required
                             >
                         </div>
@@ -48,11 +60,11 @@
                         </div>
 
                         <div class="item">
-                            <div>Número</div>
+                            <div>Número e Complemento</div>
                             <div>
                                 <input  
                                     type="text"
-                                    name="number"
+                                    name="address2"
                                     placeholder="Ex: 61"
                                     required
                                 >
@@ -94,32 +106,32 @@
 
                     <section class=cards_items>
                         
-                        <div class="card" data-id="1">
+                        <div class="card" data-id="Lâmpadas">
                             <img src="pictures/lampadas.svg" alt="Lâmpadas">
                             <div>Lâmpadas</div>
                         </div>
 
-                        <div class="card" data-id="2">
+                        <div class="card" data-id="Pilhas e Baterias">
                             <img src="pictures/baterias.svg" alt="Pilhas e Baterias">
                             <div>Pilhas e Baterias</div>
                         </div>
 
-                        <div class="card" data-id="3">
+                        <div class="card" data-id="Papéis e Papelão">
                             <img src="pictures/papeis-papelao.svg" alt="Papéis e Papelão">
                             <div>Papéis e Papelão</div>
                         </div>
 
-                        <div class="card" data-id="4">
+                        <div class="card" data-id="Resíduos Eletrônicos">
                             <img src="pictures/eletronicos.svg" alt="Resíduos Eletrônicos">
                             <div>Resíduos Eletrônicos</div>
                         </div>
 
-                        <div class="card" data-id="5">
+                        <div class="card" data-id="Resíduos Organicos">
                             <img src="pictures/organicos.svg" alt="Resíduos Organicos">
                             <div>Resíduos Organicos</div>
                         </div>
 
-                        <div class="card" data-id="6">
+                        <div class="card" data-id="Óleo de Cozinha">
                             <img src="pictures/oleo.svg" alt="Óleo de Cozinha">
                             <div>Óleo de Cozinha</div>
                         </div>
@@ -135,5 +147,9 @@
     </div>
 
     <script src="/scripts.js"></script>
+    
+    {% if saved %}
+        {%include "registered.njk"%}
+    {% endif %}
     
 {% endblock %}
