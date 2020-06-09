@@ -1,7 +1,7 @@
 # Ecoleta
 
 <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github-assets/banner.png" />
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./public/pictures/logo.svg" />
 </h1>
 
 <h4 align="center"> 
