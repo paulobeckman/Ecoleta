@@ -28,11 +28,25 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 
+
+
 #page-home{
     height: 110vh;
     background: url('./pictures/home-background.svg') no-repeat;
    
     background-position: 35vw bottom;
+
+    animation: upone 500ms ease-out;
+}
+
+@keyframes upone {
+    from{
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 .container{
@@ -205,6 +219,19 @@ h1, h2, h3, h4, h5, h6 {
     height: 1269px;
     margin: 46px 14%;
     border-radius: 8px;
+
+    animation: up 200ms ease-out;
+}
+
+@keyframes up{
+    from{
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to{
+        opacity: 1;
+    }
+
 }
 
 .card_register h1{
@@ -225,6 +252,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .card_register .all_items{
     margin: 0 64px;    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }
 
 input,
@@ -232,50 +262,23 @@ select{
     outline: none;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 19px;
-}
+    padding: 20px;
 
-
-
-.all_items .item input,
-.all_items .item select{
     background: #F0F0F5;
-    width: 608px;
-    height: 56px;
+    width: 260px;
 
-    border-radius: 8px;
+    border-radius: 8px;    
 }
 
-.all_items .grup-address {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+.all_items select{
+    width: 100%;
 }
 
-.all_items .grup-uf_city {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-}
-
-.all_items .grup-address input[name="address"]{
-    width: 416px;
-}
-
-.all_items .grup-address input[name="number"]{
-   width: 168px;
-}
-
-
-.all_items .grup-uf_city select{
-    width: 292px;
-}
 
 .all_items .item div:nth-child(1){
     color: #6C6C80;
-    width: 115px;
-    height: 16px;
     font-size: 14px;
     line-height: 16px;
     margin-bottom: 8px;
@@ -347,6 +350,7 @@ select{
     padding: 18px 30px;
     margin-top: 70px;
     margin-left: 390px;
+    margin-: ;
 
     cursor: pointer;
 
@@ -401,11 +405,8 @@ select{
 
 .modal input,
 .modal button{
-    width: 420px;
-    height: 56px;
-    border-radius: 8px;
+    width: 380px;
     margin-top: 8px;
-
 }
 
 .modal button{
@@ -414,6 +415,10 @@ select{
     font-size: 16px;
     font-weight: 19px;
     color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 420px;
+    
 }
 
 /* === LIST === */
