@@ -300,7 +300,7 @@ select{
     position: absolute;
     right: 0;
     margin-right: 64px;
-    top: 635px;
+    top: 685px;
     
 
     font-weight: normal;
@@ -350,7 +350,6 @@ select{
     padding: 18px 30px;
     margin-top: 70px;
     margin-left: 390px;
-    margin-: ;
 
     cursor: pointer;
 
@@ -440,9 +439,11 @@ select{
     color: #6C6C80;
 
     margin-top: 20px;
-    
 }
 
+#page-list .cards-list .card-items{
+    display: grid;
+}
 
 #page-list .cards-list{
     margin-top: 23px;
