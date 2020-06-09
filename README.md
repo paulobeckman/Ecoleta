@@ -70,7 +70,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Node.js][nodejs]
 - [CSS][css]
-- [HTML]
+- [HTML][HTML]
 - [JavaScript][JavaScript]
 - [SQLite][SQLite]
 - [Nunjucks][Nunjucks]
@@ -128,6 +128,7 @@ Feito por Paulo Beckman 👋🏽 [Entre em contato!](https://www.linkedin.com/in
 [prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 [rs]: https://rocketseat.com.br>
 [CSS]: https://developer.mozilla.org/pt-BR/docs/Web/CSS
+[HTML]: https://developer.mozilla.org/pt-BR/docs/Web/HTML
 [JavaScript]: https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript
 [SQLite]: https://www.sqlitetutorial.net/sqlite-nodejs/
 [Nunjucks]: https://www.npmjs.com/package/nunjucks
