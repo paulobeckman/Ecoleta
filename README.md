@@ -10,7 +10,7 @@
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/leon-carvalho/Ecoleta?color=%2304D361">
   	
   <a href="https://www.linkedin.com/in/paulo-beckman/">
-    <img alt="Made by paulo-beckman" src="https://img.shields.io/badge/made%20by-leon--carvalho-%2304D361">
+    <img alt="Made by paulo-beckman" src="https://img.shields.io/badge/made%20by-paulo--beckman-%2304D361">
   </a>
 	
   
@@ -69,7 +69,7 @@ O layout da aplicação está disponível no Figma:
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Node.js][nodejs]
-- [CSS][CSS]
+- [CSS][css]
 - [HTML][HTML]
 - [JavaScript][JavaScript]
 - [SQLite][SQLite]
@@ -127,4 +127,5 @@ Feito por Paulo Beckman 👋🏽 [Entre em contato!](https://www.linkedin.com/in
 [vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 [prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 [rs]: https://rocketseat.com.br>
+[CSS]: https://developer.mozilla.org/pt-BR/docs/Web/CSS
 
