@@ -7,20 +7,20 @@
 </h4>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/leon-carvalho/Ecoleta?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/paulobeckman/Ecoleta?color=%2304D361">
   	
   <a href="https://www.linkedin.com/in/paulo-beckman/">
-    <img alt="Made by paulo-beckman" src="https://img.shields.io/badge/made%20by-paulo--beckman-%2304D361">
+    <img alt="Made by paulobeckman" src="https://img.shields.io/badge/made%20by-paulobeckman-%2304D361">
   </a>
 	
   
   <a href="https://github.com/paulobeckman/Ecoleta/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/leon-carvalho/Ecoleta">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/paulobeckman/Ecoleta">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
    <a href="https://github.com/paulobeckman/Ecoleta/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/leon-carvalho/Ecoleta?style=social">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/paulobeckman/Ecoleta?style=social">
   </a>
 </p>
 
@@ -52,16 +52,16 @@ O NLW é uma experiência online com muito conteúdo prático, desafios e hacks 
 O layout da aplicação está disponível no Figma:
 
 <a href="https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546">
-  <img alt="Made by paulo-beckman" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
+  <img alt="Made by paulobeckman" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
 </a>
 
 
 ### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github-assets/web.svg" width="400px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github-assets/pagina1.png" width="400px">
 
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github-assets/sucesso-web.svg" width="400px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github-assets/paginas2.png" width="500px">
 </p>
 
 ## 🛠 Tecnologias
