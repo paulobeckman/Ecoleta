@@ -54,7 +54,7 @@ module.exports = db
 
 
 //     //deletar registro
-//     // db.run (`DELETE FROM places WHERE id = ?`, [5], function(err) {
+//     // db.run (`DELETE FROM places WHERE id = ?`, [10], function(err) {
 //     //     if(err) {
 //     //         return console.log(err)
 //     //     }
