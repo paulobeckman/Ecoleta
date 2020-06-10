@@ -9,7 +9,7 @@
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/paulobeckman/Ecoleta?color=%2304D361">
   
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/paulobeckman/rocketseat-courses">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/paulobeckman/Ecoleta">
   
   <a href="https://www.linkedin.com/in/paulo-beckman/">
     <img alt="Made by paulobeckman" src="https://img.shields.io/badge/made%20by-paulobeckman-%2304D361">
