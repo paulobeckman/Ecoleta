@@ -11,7 +11,7 @@
   
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/paulobeckman/Ecoleta">
   
-  <a href="https://www.linkedin.com/in/paulo-beckman/">
+  <a href="https://www.linkedin.com/in/paulobeckman/">
     <img alt="Made by paulobeckman" src="https://img.shields.io/badge/made%20by-paulobeckman-%2304D361">
   </a>
 	
