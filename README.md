@@ -77,8 +77,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [CSS][css]
 - [HTML][HTML]
 - [JavaScript][JavaScript]
-- [SQLite][SQLite]
+- [SQLite3][SQLite]
 - [Nunjucks][Nunjucks]
+- [API de localidades do IBGE][IBGE]
+
 
 
 
@@ -137,4 +139,5 @@ Feito por Paulo Beckman 👋🏽 [Entre em contato!](https://www.linkedin.com/in
 [JavaScript]: https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript
 [SQLite]: https://www.sqlitetutorial.net/sqlite-nodejs/
 [Nunjucks]: https://www.npmjs.com/package/nunjucks
+[IBGE]: https://servicodados.ibge.gov.br/api/docs/localidades
 
