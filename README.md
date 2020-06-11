@@ -61,6 +61,9 @@ O layout da aplicação está disponível no Figma:
 ### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+	
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github-assets/ecoleta.gif" width="800px">	
+		
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github-assets/pagina1.png" width="400px">
 
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github-assets/paginas2.png" width="400px">
