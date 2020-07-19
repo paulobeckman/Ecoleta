@@ -44,7 +44,7 @@ As empresas ou entidades poderão se cadastrar na plataforma web enviando:
   - resíduos orgânicos
   - óleo de cozinha
 
-
+ 
 Projeto desenvolvido durante a **NLW - Next Level Week** oferecida pela [Rocketseat](rs).
 O NLW é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
 
